@@ -23,8 +23,8 @@ h2{
 input{
     background-color: aqua;
     border-radius: 50px;
-    width: 300px;
-    height: 30px;
+    width: 10%;
+    height: 0.5%;
 }
 #input1{
     margin-top: 5%;
