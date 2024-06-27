@@ -1,5 +1,5 @@
 
-alert("Click the baby green dragen")
+
 
         $ ("#img1").hide();
         $ ("#img2").hide();
