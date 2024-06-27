@@ -50,5 +50,56 @@ alert("Click the baby green dragen")
     
     }*/
 
+   function mult(){
+
+            let inputvalue = document.getElementById("input").value;
+            document.getElementById('output').innerHTML ='';
+                
+            let number = parseInt(inputvalue);
+            document.getElementById('output').innerHTML ='Number:'+number+'<br><br>';
+
+            for(let i=1;i<=10;i++){
+                let num = number*i;
+                document.getElementById('output').innerHTML += number + ' x ' + i + ' = ' + num + '<br>';
+                
+                console.log(num);
+
+                
+                
+            }
+
+            
+                
+   }
+       
+
+
+
+
+
+function reset(){
+  Input_1 = document.getElementById("input1").value;
+  Input_2 = document.getElementById('input2').value;
+
+   var input={
+    email:'abivarsan@gmail',
+    password : '1234'
+   };
+
+  if(Input_1 == input.email && Input_2 == input.password )
+  {
+  document.getElementById('inputvalue').innerHTML="";
+  window.location.href='index1.html';
+  }
+  else
+  {
+    
+    
+   alert('Email or password is incorrect!');
+  }
+
+}
+
+    
     
 
